@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enmeshment">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Excessive emotional involvement and closeness with one or more significant others (often parents), at the expense of full individuation or normal social development. Often involves the belief that at least one of the enmeshed individuals cannot survive or be happy without the constant support of the other. May also include feelings of being smothered by, or fused with, others OR insufficient individual identity. Often experienced as a feeling of emptiness and floundering, having no direction, or in extreme cases questioning one's existence"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="71dp" />
+</android.support.constraint.ConstraintLayout>

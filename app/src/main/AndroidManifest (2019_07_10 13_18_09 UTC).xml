@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentalhealthguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ApprovalAddiction"></activity>
+        <activity android:name=".FacingFears" />
+        <activity android:name=".EmotionalAccounting" />
+        <activity android:name=".ConnectionExercisesACT" />
+        <activity android:name=".EmotionalPhases" />
+        <activity android:name=".TVScreen" />
+        <activity android:name=".PartsWork" />
+        <activity android:name=".PersonalitySubselves" />
+        <activity android:name=".PsychologicalWounds" />
+        <activity android:name=".EarlyChildhoodTrauma" />
+        <activity android:name=".Mindfulness" />
+        <activity android:name=".MeditationLovingKindness" />
+        <activity android:name=".MeditationBodyScan" />
+        <activity android:name=".MeditationBreathing" />
+        <activity android:name=".DistressTolerance" />
+        <activity android:name=".EmotionalRegulation" />
+        <activity android:name=".InterpersonalEffectiveness" />
+        <activity android:name=".TestCants" />
+        <activity android:name=".CountWhatCounts" />
+        <activity android:name=".VisualizingSuccess" />
+        <activity android:name=".CognitiveReframing" />
+        <activity android:name=".SchemaBoundaries" />
+        <activity android:name=".SchemaCopingMode" />
+        <activity android:name=".SchemaTreatment" />
+        <activity android:name=".SchemaEmotions" />
+        <activity android:name=".SchemaHeal" />
+        <activity android:name=".AffectScan" />
+        <activity android:name=".ButterflyHug" />
+        <activity android:name=".Floatback" />
+        <activity android:name=".LightStream" />
+        <activity android:name=".SpiralTechnique" />
+        <activity android:name=".Container" />
+        <activity android:name=".SafePlace" />
+        <activity android:name=".Rumination" />
+        <activity android:name=".Rejection" />
+        <activity android:name=".Trauma" />
+        <activity android:name=".Loneliness" />
+        <activity android:name=".Guilt" />
+        <activity android:name=".failureaid" />
+        <activity android:name=".selfesteem" />
+        <activity android:name=".Satisfying" />
+        <activity android:name=".Attractive" />
+        <activity android:name=".Simple" />
+        <activity android:name=".Obvious" />
+        <activity android:name=".CognitiveDefusion" />
+        <activity android:name=".EmotionalInhibition" />
+        <activity android:name=".Negativity" />
+        <activity android:name=".Punitiveness" />
+        <activity android:name=".Hypercriticalness" />
+        <activity android:name=".ApprovalSeeking" />
+        <activity android:name=".SelfSacrifice" />
+        <activity android:name=".Subjugation" />
+        <activity android:name=".InsufficientSelfControl" />
+        <activity android:name=".Entitlement" />
+        <activity android:name=".Failure" />
+        <activity android:name=".VulnerabilityHarm" />
+        <activity android:name=".Enmeshment" />
+        <activity android:name=".DependencyIncompetence" />
+        <activity android:name=".SocialIsolation" />
+        <activity android:name=".Defectiveness" />
+        <activity android:name=".EmotionalDeprivation" />
+        <activity android:name=".Mistrust" />
+        <activity android:name=".Abandonment" />
+        <activity android:name=".whys" />
+        <activity android:name=".CogDistort" />
+        <activity android:name=".AntiProcrastination" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

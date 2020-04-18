@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Defectiveness">
+
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="655dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Defectiveness Schema"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="250dp"
+            android:text="The feeling that one is defective, bad, unwanted, inferior, or invalid in important respects; or that one would be unlovable to significant others if exposed. May involve hypersensitivity to criticism, rejection, and blame; self-consciousness, comparisons, and insecurity around others; or a sense of shame regarding one's perceived flaws. These flaws may be private (e.g., selfishness, angry impulses, unacceptable sexual desires) or public (e.g., undesirable physical appearance, social awkwardness). Related closely to impostor syndrome. \n\nTreatment: Tackle the cognitive distortion of feeling inferior and defective."
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CognitiveDefusion">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Cognitive Defusion Techniques"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="Defusion will not necessarily make the thoughts go away and make you feel better.  Must accept thoughts and not try to control/repress them. But some strategies that can be used to defuse thoughts are the following: \n\nI’m Having the Thought That - awareness between having the thought and getting caught up in the narrative \n\nMusical Thinking - sing-song in head for negative thoughts \n\nNaming Stories - label stories when your brain begins to tell them; benefits are like labeling emotions \n\nThank Mind - when brain continues to retell/rehash narratives, genuinely thank your mind for caring enough to try and look out for you with the narrative \n\nSilly Voices Technique - Hear thoughts in a silly character's voice \n\nTV Screen - imagine thoughts are like a TV show. Make it a specific genre, with specific music and acting, to help detach self from thought. \n\nDemons on the Boat - imagine demons are around you and allowed to be around all the ship. Don't try and keep them below deck in repression."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

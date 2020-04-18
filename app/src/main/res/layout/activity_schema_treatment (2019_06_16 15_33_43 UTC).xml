@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".SchemaTreatment">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Treatment Techniques"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="1) Identifying Alternative Schemas - Ask questions such as:\nHow would you like things to be?\nHow would you like yourself, others or the world to be?\nIf people weren’t [ ], how would you like them to be?\n\n2) Limited Reparenting - Provide experiences through therapy that were missed in early childhood through empathic confrontation.\n\n3) Guided Imagery - Bring up upsetting childhood memories in form of images, emotional expression and grieving are encouraged. Identify need that weren't met and how maladaptive schemas were formed, connect to current situation that is triggering current maladaptive schema.\n\n4) Positive Data Log and Schema Diary - Keep daily log of observations that are consistent with new adaptive schema, and how what person learns during therapy is applied until next therapy session.\n\n5) Flash Cards - written statements that help access healthy side and internalize/enforce healthy schema formation and disarm negative schemas.\n\n6) Continuum Methods - schemas represent absolute thinking, Adaptive Continuum (see on scale from 0 to 100 where thinking is is on a continuum), Criteria Continua (break down personality characteristic into several subcriteria and see where you fall in that), and Two Dimensional Charting of Continua (when concepts are interrrelated, chart a predicted graph and find exceptions to rule).\n\n7) Psychodrama, Role-Playing, and Chair Work - psychodrama (remember early childhood scene that caused schema to form and activate, causes strong emotional reaction). Re-experience event with roleplaying where protect self with adult voice. Chair work has one side be the schema and the other be the healthy, and a dialogue ensues.\n\n8) Historical Test of Schema - Make two separate lists, one for confirming and one for disconfirming evidence for schema for different age periods."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

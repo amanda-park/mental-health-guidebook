@@ -1,0 +1,734 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\01e4d9974c6a5da84d9af9ef86066417\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9abf9f7ab448325c69afe5ac209f9efc\jetified-play-services-ads-18.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\b92b4e973a3cc9797495cecbf4428051\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d9270c9624695f25fcecc6817bef4238\play-services-gass-18.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\3087f829ad78da1f0d52970740cc50c8\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\29f042d6843fc03333beedb2473ec36a\play-services-measurement-base-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d52aa75563c2cc8edb955a24f2134bd9\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\88b0d3b726b0eef4c55ee482a6f3a616\play-services-ads-base-18.3.0\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+	package
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:1-246:12
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#com.android.vending.BILLING
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:8:5-244:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\b92b4e973a3cc9797495cecbf4428051\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\b92b4e973a3cc9797495cecbf4428051\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d9270c9624695f25fcecc6817bef4238\play-services-gass-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d9270c9624695f25fcecc6817bef4238\play-services-gass-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\3087f829ad78da1f0d52970740cc50c8\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\3087f829ad78da1f0d52970740cc50c8\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\29f042d6843fc03333beedb2473ec36a\play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\29f042d6843fc03333beedb2473ec36a\play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\88b0d3b726b0eef4c55ee482a6f3a616\play-services-ads-base-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\88b0d3b726b0eef4c55ee482a6f3a616\play-services-ads-base-18.3.0\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.mentalhealthguide.Opening
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:15:9-54
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:15:19-42
+activity#com.example.mentalhealthguide.Notification
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:16:9-50
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:16:19-47
+activity#com.example.mentalhealthguide.traumaMindfulness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:17:9-19:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:18:13-46
+activity#com.example.mentalhealthguide.TraumaResolution
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:21:13-45
+activity#com.example.mentalhealthguide.SevenAs
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:24:13-36
+activity#com.example.mentalhealthguide.Grieving
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:27:13-37
+activity#com.example.mentalhealthguide.flashback
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:29:9-31:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:30:13-38
+activity#com.example.mentalhealthguide.ApprovalAddiction
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:32:9-34:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:33:13-46
+activity#com.example.mentalhealthguide.FacingFears
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:36:13-40
+activity#com.example.mentalhealthguide.EmotionalAccounting
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:38:9-40:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:39:13-48
+activity#com.example.mentalhealthguide.ConnectionExercisesACT
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:42:13-51
+activity#com.example.mentalhealthguide.EmotionalPhases
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:45:13-44
+activity#com.example.mentalhealthguide.TVScreen
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:48:13-37
+activity#com.example.mentalhealthguide.PartsWork
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:50:9-52:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:51:13-38
+activity#com.example.mentalhealthguide.PersonalitySubselves
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:54:13-49
+activity#com.example.mentalhealthguide.PsychologicalWounds
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:56:9-58:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:57:13-48
+activity#com.example.mentalhealthguide.EarlyChildhoodTrauma
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:60:13-49
+activity#com.example.mentalhealthguide.Mindfulness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:62:9-64:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:63:13-40
+activity#com.example.mentalhealthguide.MeditationLovingKindness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:65:9-67:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:67:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:66:13-53
+activity#com.example.mentalhealthguide.MeditationBodyScan
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:68:9-70:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:70:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:69:13-47
+activity#com.example.mentalhealthguide.MeditationBreathing
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:72:13-48
+activity#com.example.mentalhealthguide.DistressTolerance
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:75:13-46
+activity#com.example.mentalhealthguide.EmotionalRegulation
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:78:13-48
+activity#com.example.mentalhealthguide.InterpersonalEffectiveness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:81:13-55
+activity#com.example.mentalhealthguide.TestCants
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:84:13-38
+activity#com.example.mentalhealthguide.CountWhatCounts
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:87:13-44
+activity#com.example.mentalhealthguide.VisualizingSuccess
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:90:13-47
+activity#com.example.mentalhealthguide.CognitiveReframing
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:92:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:93:13-47
+activity#com.example.mentalhealthguide.SchemaBoundaries
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:96:13-45
+activity#com.example.mentalhealthguide.SchemaCopingMode
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:99:13-45
+activity#com.example.mentalhealthguide.SchemaTreatment
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:102:13-44
+activity#com.example.mentalhealthguide.SchemaEmotions
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:105:13-43
+activity#com.example.mentalhealthguide.SchemaHeal
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:107:9-109:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:108:13-39
+activity#com.example.mentalhealthguide.AffectScan
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:111:13-39
+activity#com.example.mentalhealthguide.ButterflyHug
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:114:13-41
+activity#com.example.mentalhealthguide.Floatback
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:116:9-118:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:117:13-38
+activity#com.example.mentalhealthguide.LightStream
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:119:9-121:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:121:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:120:13-40
+activity#com.example.mentalhealthguide.SpiralTechnique
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:122:9-124:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:123:13-44
+activity#com.example.mentalhealthguide.Container
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:125:9-127:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:126:13-38
+activity#com.example.mentalhealthguide.SafePlace
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:128:9-130:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:129:13-38
+activity#com.example.mentalhealthguide.Rumination
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:132:13-39
+activity#com.example.mentalhealthguide.Rejection
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:135:13-38
+activity#com.example.mentalhealthguide.Trauma
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:137:9-139:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:138:13-35
+activity#com.example.mentalhealthguide.Loneliness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:140:9-142:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:141:13-39
+activity#com.example.mentalhealthguide.Guilt
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:143:9-145:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:144:13-34
+activity#com.example.mentalhealthguide.failureaid
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:147:13-39
+activity#com.example.mentalhealthguide.selfesteem
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:150:13-39
+activity#com.example.mentalhealthguide.Satisfying
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:152:9-154:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:153:13-39
+activity#com.example.mentalhealthguide.Attractive
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:156:13-39
+activity#com.example.mentalhealthguide.Simple
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:158:9-160:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:159:13-35
+activity#com.example.mentalhealthguide.Obvious
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:161:9-163:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:162:13-36
+activity#com.example.mentalhealthguide.CognitiveDefusion
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:164:9-166:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:165:13-46
+activity#com.example.mentalhealthguide.EmotionalInhibition
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:167:9-169:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:169:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:168:13-48
+activity#com.example.mentalhealthguide.Negativity
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:170:9-172:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:172:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:171:13-39
+activity#com.example.mentalhealthguide.Punitiveness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:173:9-175:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:175:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:174:13-41
+activity#com.example.mentalhealthguide.Hypercriticalness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:176:9-178:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:178:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:177:13-46
+activity#com.example.mentalhealthguide.ApprovalSeeking
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:179:9-181:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:181:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:180:13-44
+activity#com.example.mentalhealthguide.SelfSacrifice
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:182:9-184:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:184:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:183:13-42
+activity#com.example.mentalhealthguide.Subjugation
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:185:9-187:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:186:13-40
+activity#com.example.mentalhealthguide.InsufficientSelfControl
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:188:9-190:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:189:13-52
+activity#com.example.mentalhealthguide.Entitlement
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:191:9-193:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:193:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:192:13-40
+activity#com.example.mentalhealthguide.Failure
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:194:9-196:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:196:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:195:13-36
+activity#com.example.mentalhealthguide.VulnerabilityHarm
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:197:9-199:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:199:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:198:13-46
+activity#com.example.mentalhealthguide.Enmeshment
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:200:9-202:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:202:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:201:13-39
+activity#com.example.mentalhealthguide.DependencyIncompetence
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:203:9-205:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:205:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:204:13-51
+activity#com.example.mentalhealthguide.SocialIsolation
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:206:9-208:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:207:13-44
+activity#com.example.mentalhealthguide.Defectiveness
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:209:9-211:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:211:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:210:13-42
+activity#com.example.mentalhealthguide.EmotionalDeprivation
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:212:9-214:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:214:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:213:13-49
+activity#com.example.mentalhealthguide.Mistrust
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:215:9-217:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:217:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:216:13-37
+activity#com.example.mentalhealthguide.Abandonment
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:218:9-220:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:220:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:219:13-40
+activity#com.example.mentalhealthguide.whys
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:221:9-223:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:222:13-33
+activity#com.example.mentalhealthguide.CogDistort
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:224:9-226:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:225:13-39
+activity#com.example.mentalhealthguide.AntiProcrastination
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:227:9-229:52
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:228:13-48
+activity#com.example.mentalhealthguide.MainActivity
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:230:9-240:20
+	android:screenOrientation
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:233:13-49
+	android:label
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:232:13-45
+	android:theme
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:234:13-56
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:231:13-41
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:235:13-239:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:236:17-69
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:236:25-66
+action#android.intent.action.VIEW
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:237:17-69
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:237:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:238:17-77
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:238:27-74
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:241:9-243:70
+	android:value
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:243:13-67
+	android:name
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml:242:13-69
+uses-sdk
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\01e4d9974c6a5da84d9af9ef86066417\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\01e4d9974c6a5da84d9af9ef86066417\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9abf9f7ab448325c69afe5ac209f9efc\jetified-play-services-ads-18.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9abf9f7ab448325c69afe5ac209f9efc\jetified-play-services-ads-18.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\b92b4e973a3cc9797495cecbf4428051\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\b92b4e973a3cc9797495cecbf4428051\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d9270c9624695f25fcecc6817bef4238\play-services-gass-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d9270c9624695f25fcecc6817bef4238\play-services-gass-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\3087f829ad78da1f0d52970740cc50c8\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\3087f829ad78da1f0d52970740cc50c8\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\29f042d6843fc03333beedb2473ec36a\play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\29f042d6843fc03333beedb2473ec36a\play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d52aa75563c2cc8edb955a24f2134bd9\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d52aa75563c2cc8edb955a24f2134bd9\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\88b0d3b726b0eef4c55ee482a6f3a616\play-services-ads-base-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\88b0d3b726b0eef4c55ee482a6f3a616\play-services-ads-base-18.3.0\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\9abf9f7ab448325c69afe5ac209f9efc\jetified-play-services-ads-18.3.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Amanda\AndroidStudioProjects\MentalHealthGuide\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\87be75b84ed45ffde6ffae6eb338c4b9\play-services-ads-lite-18.3.0\AndroidManifest.xml:36:13-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\4b1745e5aefb777251d25f54dd57b6f8\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Amanda\.gradle\caches\transforms-2\files-2.1\0ee4dd45a88cd0ea2e86a42cf38c61d6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

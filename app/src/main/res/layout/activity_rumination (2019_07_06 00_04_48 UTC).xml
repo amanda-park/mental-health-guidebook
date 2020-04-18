@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".Rumination">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="First Aid for Rumination"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="1) Change perspective\n\n Rather than view things from a first-person point of view (which causes a narrative of the experience to replay), view the rumination-causing events in the third person to get a more realistic perspective on the situation.\n\nTo visualize the situation differently, imagine a snapshot of the situation that is causing rumination. Zoom out the scene slowly until you're a passerby in the situation who happens to see it, rather than a direct participant.\n\n2) Distract yourself from the emotional pain\n\nRepressing the thought urges is an ineffective measure, however distraction is an effective mechanism for breaking a rumination spell. Some effective methods of distraction include video games, reading, socializing, and exercise. When time is short, spending a few minutes on a short puzzle or imagining the layout of a supermarket broke the train of rumination. The best method of distraction will vary depending on setting and the ruminative memory, so through trial and error figure out which method of distraction is appropriate for the current situation.\n\nTo identify potential distractions, list the places and situations where you ruminate most often, and with each place you ruminate, list as many short and long distractions as possible. Once the list is complete, carry it with you so that you can refer to it in times of rumination. \n\n3) Reframe Anger\n\nThe catharsis model of dealing with anger (ie, hitting things when angry) has been found to be counterproductive when coping with anger. The best way to deal with anger is to instead reframe it, which can be done by doing the following:\n\nFind the positive intention in the situation that's causing anger \n\nIdentify opportunities for improvement\n\nEmbrace the learning moment\n\nView the offender as needing help \n\n4) Go Easy On Friends\n\nEnsure that balanced mutual emotional support provided \n\nDo not ruminate same topic to them endlessly as they will expect you to move on past a certain point\n\nMake sure that conversations are not constantly serious and have some light-hearted moments and fun included in them."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

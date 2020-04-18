@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".VisualizingSuccess">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Visualizing Success"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:autoLink="web"
+                android:text="Visualization is a powerful tool to help one change their habits and achieve success. It has been used by athletes to help them believe in their mind's eye that they are already a winner and worthy, but it can also be used for those less athletically inclined as well. Before visualizing, make sure to turn off distractions (ie, phone) and practice deep breathing exercises to help yourself relax. Then, the steps to successfully visualize success are as follows:\n\n1) First, you must consider the goal you want to achieve. It's best to start small when setting goals, and focus on your five senses and how they feel upon thinking of your goal. \n\n2) Picture the Scene of the Goal - Imagine how you would feel in the situation right before achieving your goal. What are your thoughts? What are you doing to prepare? Imagine taking deep breaths in this setting. \n\n3) Think About The Goal and Scene Frequently - don't just visualize on the day you want to achieve your goal. Make sure to visualize regularly to strengthen the positive mindset associated with the goal.\n\n4) Add More Positivity to the Visualization - Couple the visualizations with positive affirmations to further encourage a feeling of success with the goal.\n\nTo learn more, check out this link - https://explorable.com/e/visualizing-success"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

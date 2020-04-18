@@ -1,0 +1,4 @@
+#Sun Sep 22 12:11:04 EDT 2019
+base.0=C\:\\Users\\Amanda\\AndroidStudioProjects\\MentalHealthGuide\\app\\build\\intermediates\\dex\\freeDebug\\mergeDexFreeDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

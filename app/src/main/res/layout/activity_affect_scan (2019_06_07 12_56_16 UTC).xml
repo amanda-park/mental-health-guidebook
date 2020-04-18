@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AffectScan">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Affect Scan"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="Use the Affect Scan on the negative cognition, asking yourself the following:\n\na) When you think of the incident, what is the most disturbing part?\n\nb) What image in the memory represents the worst part of the event? For instance, the way the person looked, or what they said, or when the person walked away. If no image represents the incident, or you were anticipating a problem, just think of the worst part.\n\nc) When you hold the image/incident in mind, what emotion comes up for you?\n\nd) Where do you feel it in your body?\n\ne) What negative thought goes along with it?\n\nf) Now hold together the image and the negative thought, and feel the physical sensations in your body.\n\ng) Focusing on the feelings let your mind scan back to your childhood and notice the earliest memory that pops up and comes to mind where you felt the same way.\n\nh) On the SUD scale (0-10), how does the old memory feel now?\n\ni) If you feel your body change for the worse, and/or the SUD level is 3 or higher, the memory has probably not been fully processed. If so, pick a few words to be your cue to identify the childhood memory (for instance, lost in a mall, slapped at camp, ignored by parents, alone in the basement, caught stealing in class)."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".Mindfulness">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Mindfulness Techniques"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:autoLink="web"
+                android:text="1) STOP \n\nStands for stop, take a moment, observe and proceed. When you're feeling overwhelmed, this acronym can help you to react in a healthier manner. For a more detailed description of the acronym, it suggests to stop what you're doing and put things down for a minute, take a few deep breaths, observe your current experience as is, and proceed with an activity that will better your well-being. \n\n2) Traits of Emotional Hunger - emotional and physical hunger can feel identical if you haven't learned how to tell the two apart. Ways to tell the two apart: \n\nEmotional Hunger is sudden, generally is a craving for a certain food, is based in the mind and mouth, is urgent, is paired with an upsetting emotion, involves automatic or absent-minded eating, does not notice or stop eating in response to fullness, and feels guilty about eating. \n\nPhysical hunger is gradual, open to eating different foods, is based in the stomach, does not need to be satiated immediately, occurs out of physical need, involves deliberate choices and awareness of eating, stops eating when full, and realizes eating is necessary.\n\nAnother way to track your hunger is to use a hunger fullness scale, where 0 is where your stomach is entirely empty and 10 is where you're unbearably full. Generally, you want your hunger and fullness range to be from about a 3 to a 7 (moderately hungry to moderately full), as it's easier to ensure you don't hit the extreme ranges of hunger, which will make it much more likely to overeat and get stuffed. By having mindful awareness of one's hunger levels it's easier to maintain a diet and stay satiated throughout the day."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

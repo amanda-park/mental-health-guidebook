@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".selfesteem">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="First Aid for Low Self-Esteem"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:autoLink="web"
+                android:layout_marginBottom="1dp"
+                android:text="1) Adopt Self-Compassion\n\nThe critical voice in one's head can be devastating to cope with. Being empathetic to our own experiences goes a lot further than criticizing ourselves to death. To learn more about self-compassion, check out Kristin Neff's work at https://self-compassion.org/ \n\n2) Identify And Affirm Strengths\n\nRather than use positive affirmations, which try to confirm qualities we'd like to have but don't believe that we have, identify self-affirmations that identify valuable aspects of ourselves we know to be true and can't be taken away from us even if we fail. An exercise to follow to enforce this practice is as follows:\n\nGrab two sheets of paper. On the first list your important attributes and qualities, including any achievements you deem significant. If negative thoughts crop up while coming up with positive achievements, write them on the second sheet of paper.\n\nChoose one item from the first sheet that is especially meaningful to you and write a brief essay about why the achievement is meaningful. Then take the second sheet of paper, crumple it up, and throw it in the garbage. On following days, choose other items from your positive list of attributes and write about those as well."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:autoLink="web"
+                android:layout_marginBottom="250dp"
+                android:text="3) Increase Tolerance for Compliments\n\nA writing exercise to become more accepting of compliments is as follows:\n\nThink back to a time when someone expressed appreciation for either a personal quality that you have or something that you did. Describe the incident and what made the person feel positively about you when it occurred.\n\nWhat does displaying this attribute or behavior mean to you?\n\nWhat benefits does having the attribute or behavior bring to your relationships and friendships?\n\nWhat other significant or meaningful functions or roles can the attribute or behavior contribute to your life?\n\n4) Increase Personal Empowerment\n\nAn exercise to identify areas to be more assertive are as follows:\n\nThink about aspects of your life that make you frustrated. Include your social life, family life, work life, personal life, and community life. Describe three examples from each of those domains. Rank your items according to which you have both a high likelihood of success and manageable consequences in case of failure.\n\nAfter creating your list, do some strategic planning. Understand the mindsets of relevant people around and the structure of any bureaucracy you may need to approach. Then think through the plan of action and anticipate any reactions to the best of your ability. Then, use practice, persistence, and patience to develop personal empowerment. As more successes develop, they will snowball and lead to increased overall self-esteem. \n\n5) Strengthening Self-Control\n\nWillpower is a finite resource; in order to maximize its effectiveness, we need to strengthen our basic willpower muscles, manage the energy reservoirs that fuel our self-control so they aren't depleted, and minimize the impact of the many temptations that exist around us. \n\nFor example, to strengthen willpower, doing something like using your nondominant hand requires you to regularly inhabit an automatic impulse. (If using your nondominant hand isn't feasible, can also resist the urge to curse, eat sweets, and/or slouch to break the automatic habits.) Try to stick to this new schedule for 4 to 8 weeks, following the habit-breaking mechanism for as long as possible throughout the day. \n\nTo best manage energy resources, keep diet balanced so that the body doesn't experience sugar crashes.\n\nThe best way to preserve willpower, however, is to avoid temptations and to manage them when one is unable to. When one is unable to avoid temptations, do the following:\n\nPlay one side of the brain against the other - when feeling tempted to give into a craving or addiction, logically recall the reasons it would be bad to give back into that habit. \n\nMinimize the damage - When slipping back into an old habit, treat it as a willpower muscle running out rather than as an excuse to start over entirely. \n\nAvoiding Triggers - Many bad habits are prompted by triggers. (Ex, eating popcorn is associated with watching a movie.) Reading up on the Habits section in this app can help you understand more about how to build better habits overall.\n\nLastly, practicing mindfulness can help one understand when craving develop and learn how to tolerate the urges and impulses associated with them."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

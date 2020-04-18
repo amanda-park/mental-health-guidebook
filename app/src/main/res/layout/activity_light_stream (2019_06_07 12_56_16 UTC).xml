@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abandonment">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Light Stream Technique"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="The first part of the light stream technique is to be mindful of what you are experiencing and feeling in that moment. Ask yourself what emotions am I feeling right now, and where do I feel it in my body?\n\nThe second step is to imagine that those feelings are an object. The goal is to take the first thing that comes to mind after recognizing the emotions, and location. Mentally ask yourself these questions about the object:\n“If it had a shape, what shape would it be?”\n“If it had a size, what size would it be?”\n“If it had a color, what color would it be?”\n“If it had a temperature, what temperature would it be? Hot or cold?”\n“If it had a texture, what texture would it be?”\n“If it had a sound, what kind of sound would it make? High or low pitch?”\n\nNext, you are going to do a direct imagery exercise:\n\nPick a color that you most associate with healing. Imagine that there is a stream of light this color that is coming from the centre of the universe. This is a magic light, because the more you need of it, the more of it is available to you. Allow this light to flow into your head, and focus it down on the object. Let the light vibrate and resonate like a laser beam in and around this object.\nAllow yourself to just notice what happens to the object.\nRemember that the more light or energy that you need the more is available to you. Allow yourself to feel the light enter your mind, and allow the healing light again to vibrate and resonate in and around the object and notice what happens to the object.\n\nWhen you notice that the object is gone or feels that it is contained, allow yourself to let the energy from the light flow into your body. Allow it to reach the tips of your finger, and the tips of your toes. Allow yourself to be engulfed, and overwhelmed by the energy, count to three and open your eyes."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

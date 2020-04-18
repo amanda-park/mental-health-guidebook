@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".failureaid">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="First Aid for Failure"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="1) Getting Support From Others \n\nThe best way to grow from failure is to get support from others and have the positive lessons of the failure gently pointed out to you in the immediate aftermath of it. Just emotional support alone can validate misperceptions about oneself.\n\nLessons to take from failure include:\n\na) Failure is a great teacher\n\nb) Failure provides new opportunities\n\nc) Failure can make us stronger\n\nd) Some failures are also successes\n\ne) Failure makes future success more meaningful\n\nf) Success is not always necessary\n\n2) Regaining Control\n\nReexamine preparation and performance to that elements perceived as being out of control can be seen as such if approached differently. Exercise for this is as follows:\n\nDefine goal in realistic and specific terms\n\nBreak down the goal into intermediate steps\n\nSet timeframes to the overall and intermediate goals.\n\nList any potential detours, setbacks, or tempations and consider solutions to them.\n\nAnother exercise to feel more in control is as follows:\n\nDescribe the failure in question (focus on just one failure)\n\nList all the factors that contributed to your failure\n\nIdentify which factors are in your control and which are not. Go through each factor and try to view it differently - try to replace one so that it is within your control.\n\nCreate a new list of action items that are within your control."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="3) Taking Responsibility and Owning The Fear of Failing\n\nThis requires some honest reappraisal of the behaviors taken, which is best done by talking about one's fears and failures with supportive people. Humor is also a good coping mechanism for coping with failure.\n\n4) Managing Performance Pressure Via Distractions\n\nPerformance pressure can exacerbate the fear of failing to the point that it can increase the odds of failure, leading to a nasty self-perpetuating cycle. Some ways to combat this include:\n\nWhistling\n\nDeep Breathing\n\nMumbling to Oneself When Taking an Exam\n\nNeutralize Stereotypes"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

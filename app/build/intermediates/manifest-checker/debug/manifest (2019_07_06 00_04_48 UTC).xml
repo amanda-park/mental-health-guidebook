@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentalhealthguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.mentalhealthguide.DistressTolerance" />
+        <activity android:name="com.example.mentalhealthguide.EmotionalRegulation" />
+        <activity android:name="com.example.mentalhealthguide.InterpersonalEffectiveness" />
+        <activity android:name="com.example.mentalhealthguide.TestCants" />
+        <activity android:name="com.example.mentalhealthguide.CountWhatCounts" />
+        <activity android:name="com.example.mentalhealthguide.VisualizingSuccess" />
+        <activity android:name="com.example.mentalhealthguide.CognitiveReframing" />
+        <activity android:name="com.example.mentalhealthguide.SchemaBoundaries" />
+        <activity android:name="com.example.mentalhealthguide.SchemaCopingMode" />
+        <activity android:name="com.example.mentalhealthguide.SchemaTreatment" />
+        <activity android:name="com.example.mentalhealthguide.SchemaEmotions" />
+        <activity android:name="com.example.mentalhealthguide.SchemaHeal" />
+        <activity android:name="com.example.mentalhealthguide.AffectScan" />
+        <activity android:name="com.example.mentalhealthguide.ButterflyHug" />
+        <activity android:name="com.example.mentalhealthguide.Floatback" />
+        <activity android:name="com.example.mentalhealthguide.LightStream" />
+        <activity android:name="com.example.mentalhealthguide.SpiralTechnique" />
+        <activity android:name="com.example.mentalhealthguide.Container" />
+        <activity android:name="com.example.mentalhealthguide.SafePlace" />
+        <activity android:name="com.example.mentalhealthguide.Rumination" />
+        <activity android:name="com.example.mentalhealthguide.Rejection" />
+        <activity android:name="com.example.mentalhealthguide.Trauma" />
+        <activity android:name="com.example.mentalhealthguide.Loneliness" />
+        <activity android:name="com.example.mentalhealthguide.Guilt" />
+        <activity android:name="com.example.mentalhealthguide.failureaid" />
+        <activity android:name="com.example.mentalhealthguide.selfesteem" />
+        <activity android:name="com.example.mentalhealthguide.Satisfying" />
+        <activity android:name="com.example.mentalhealthguide.Attractive" />
+        <activity android:name="com.example.mentalhealthguide.Simple" />
+        <activity android:name="com.example.mentalhealthguide.Obvious" />
+        <activity android:name="com.example.mentalhealthguide.CognitiveDefusion" />
+        <activity android:name="com.example.mentalhealthguide.EmotionalInhibition" />
+        <activity android:name="com.example.mentalhealthguide.Negativity" />
+        <activity android:name="com.example.mentalhealthguide.Punitiveness" />
+        <activity android:name="com.example.mentalhealthguide.Hypercriticalness" />
+        <activity android:name="com.example.mentalhealthguide.ApprovalSeeking" />
+        <activity android:name="com.example.mentalhealthguide.SelfSacrifice" />
+        <activity android:name="com.example.mentalhealthguide.Subjugation" />
+        <activity android:name="com.example.mentalhealthguide.InsufficientSelfControl" />
+        <activity android:name="com.example.mentalhealthguide.Entitlement" />
+        <activity android:name="com.example.mentalhealthguide.Failure" />
+        <activity android:name="com.example.mentalhealthguide.VulnerabilityHarm" />
+        <activity android:name="com.example.mentalhealthguide.Enmeshment" />
+        <activity android:name="com.example.mentalhealthguide.DependencyIncompetence" />
+        <activity android:name="com.example.mentalhealthguide.SocialIsolation" />
+        <activity android:name="com.example.mentalhealthguide.Defectiveness" />
+        <activity android:name="com.example.mentalhealthguide.EmotionalDeprivation" />
+        <activity android:name="com.example.mentalhealthguide.Mistrust" />
+        <activity android:name="com.example.mentalhealthguide.Abandonment" />
+        <activity android:name="com.example.mentalhealthguide.whys" />
+        <activity android:name="com.example.mentalhealthguide.CogDistort" />
+        <activity android:name="com.example.mentalhealthguide.AntiProcrastination" />
+        <activity
+            android:name="com.example.mentalhealthguide.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.mentalhealthguide.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

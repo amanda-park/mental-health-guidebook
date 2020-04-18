@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mentalhealthguide">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Opening"></activity>
+        <activity android:name=".Notification" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <activity
+            android:name=".traumaMindfulness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".TraumaResolution"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SevenAs"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Grieving"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".flashback"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".ApprovalAddiction"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".FacingFears"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".EmotionalAccounting"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".ConnectionExercisesACT"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".EmotionalPhases"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".TVScreen"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".PartsWork"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".PersonalitySubselves"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".PsychologicalWounds"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".EarlyChildhoodTrauma"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Mindfulness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".MeditationLovingKindness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".MeditationBodyScan"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".MeditationBreathing"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".DistressTolerance"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".EmotionalRegulation"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".InterpersonalEffectiveness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".TestCants"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".CountWhatCounts"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".VisualizingSuccess"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".CognitiveReframing"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SchemaBoundaries"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SchemaCopingMode"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SchemaTreatment"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SchemaEmotions"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SchemaHeal"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".AffectScan"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".ButterflyHug"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Floatback"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".LightStream"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SpiralTechnique"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Container"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SafePlace"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Rumination"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Rejection"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Trauma"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Loneliness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Guilt"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".failureaid"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".selfesteem"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Satisfying"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Attractive"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Simple"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Obvious"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".CognitiveDefusion"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".EmotionalInhibition"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Negativity"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Punitiveness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Hypercriticalness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".ApprovalSeeking"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SelfSacrifice"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Subjugation"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".InsufficientSelfControl"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Entitlement"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Failure"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".VulnerabilityHarm"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Enmeshment"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".DependencyIncompetence"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".SocialIsolation"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Defectiveness"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".EmotionalDeprivation"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Mistrust"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".Abandonment"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".whys"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".CogDistort"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".AntiProcrastination"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544/6300978111" />
+    </application>
+
+</manifest>

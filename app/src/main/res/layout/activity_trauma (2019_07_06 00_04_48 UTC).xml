@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".Trauma">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="First Aid for Trauma"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="1) Soothe Your Emotional Pain \n\nDepending on your personality, either talking about the traumatic experience or distancing yourself from the experience. Either way, time will help to heal all wounds. \n\n2) Recover Lost Aspects of Self\n\nWhen trauma occurs it is very easy to lose parts of oneself as certain people, places, or activities are associated with the trauma. An exercise to help recover these lost aspects is as follows (caution: only do this exercise if the trauma is still fresh and the distress you're feeling is extreme):\n\nList qualities, characteristics, and abilities you value in yourself or others value in you before events occurred (write down at least 10 things). Then notice which ones have become less prominent since the trauma, and then write a paragraph describing why you feel disconnected from the specific attribute. And for each quality, write a paragraph describing possible people, outlets, or activities to pursue that would allow you to express the quality in a more substantial way than you are able to currently. Then rank the items and tackle the ones that are the most doable and emotionally manageable. \n\n3) Find Meaning in Tragedy\n\nThere are two phases to getting over tragedy, and these include sense making and benefit finding. Sense finding helps one to make sense of the tragedy, and involves asking why, not how when thinking about the tragedy. Making sense also involves asking what might have been (which is an incredibly painful exercise that should only be done once one is far along in recovery and believes in fate) and giving the actual outcome of the events more meaning as a result. \n\nBenefit finding requires considering the potential benefits of the loss, which can happen in later stages of recovery. An exercise to help identify benefits includes imagining yourself 10 years in the future. Imagine that you obtain something significant and are looking back on your life. Imagine answering the following questions:\n\nI never imagined back then that tragic events would lead to ___.\n\nWhat I did was significant because ___.\n\nThe first step of my journey toward the achievement was when I ___.\n\nMy achievement was possible because I changed my priorities such that ___.\n\nChanging my priorities led me to make the following changes in my life: ___. Along the way I realized my purpose was to ___."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

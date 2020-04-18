@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".Abandonment">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Container Exercise"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="I want you to bring some sort of secure container to your mind’s eye, perhaps in this room, or in another secure place. This container will be strong enough to hold all this disturbing stuff – the memories, images, thoughts, physical sensations, sounds, smells, emotions. What would this container have to be like in order to securely hold your distress? (e.g. a safe, office drawer, shipping container, crate,) Can you describe it to me? What is it? What colour is it? How big is it? What does it look like? What is it made of? What makes it safe and secure?\n\nNow imagine taking the distressing images and putting them inside or sending them to the container, then shut the door. Now take the distressing thoughts…… (then go through sounds, physical sensations, smells, emotions, thoughts). Anything else that needs to go in there?\n\nNow shut the door securely. How do we make the door more secure? OK, can you do that now? Is it secure now? Is there anything else you need to do to make it more secure? How does this feel now? Shall we leave this container in the room here, or is there a different secure place where we can leave this container? During the week (or until next time), if anything disturbing comes up, just imagine sending it here (there) and putting it all in this container."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

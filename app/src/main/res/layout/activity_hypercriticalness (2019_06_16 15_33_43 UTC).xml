@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+tools:context=".Hypercriticalness">
+
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="655dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Hypercriticalness and Unrelenting Standards Schema"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="250dp"
+            android:text="The underlying belief that one must strive to meet very high internalized standards of behavior and performance, usually to avoid criticism. Typically results in feelings of pressure or difficulty slowing down; and in hypercriticalness toward oneself and others. Must involve significant impairment in: pleasure, relaxation, health, self-esteem, sense of accomplishment, or satisfying relationships. Unrelenting standards typically present as: (a) perfectionism, inordinate attention to detail, or an underestimate of how good one's own performance is relative to the norm; (b) rigid rules and shoulds in many areas of life, including unrealistically high moral, ethical, cultural, or religious precepts; or (c) preoccupation with time and efficiency, so that more can be accomplished. \n\nTreatment: Make risks seem less scary to take, pick up a hobby, choose to do things imperfectly, and do a cost-benefit analysis on effort given to specific tasks."
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

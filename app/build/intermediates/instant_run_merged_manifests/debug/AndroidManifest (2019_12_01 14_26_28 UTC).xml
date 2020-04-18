@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentalhealthguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.mentalhealthguide.traumaMindfulness" />
+        <activity
+            android:name="com.example.mentalhealthguide.TraumaResolution"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SevenAs"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Grieving"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.flashback"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.ApprovalAddiction"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.FacingFears"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.EmotionalAccounting"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.ConnectionExercisesACT"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.EmotionalPhases"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.TVScreen"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.PartsWork"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.PersonalitySubselves"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.PsychologicalWounds"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.EarlyChildhoodTrauma"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Mindfulness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.MeditationLovingKindness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.MeditationBodyScan"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.MeditationBreathing"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.DistressTolerance"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.EmotionalRegulation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.InterpersonalEffectiveness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.TestCants"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.CountWhatCounts"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.VisualizingSuccess"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.CognitiveReframing"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SchemaBoundaries"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SchemaCopingMode"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SchemaTreatment"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SchemaEmotions"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SchemaHeal"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.AffectScan"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.ButterflyHug"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Floatback"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.LightStream"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SpiralTechnique"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Container"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SafePlace"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Rumination"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Rejection"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Trauma"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Loneliness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Guilt"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.failureaid"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.selfesteem"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Satisfying"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Attractive"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Simple"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Obvious"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.CognitiveDefusion"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.EmotionalInhibition"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Negativity"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Punitiveness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Hypercriticalness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.ApprovalSeeking"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SelfSacrifice"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Subjugation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.InsufficientSelfControl"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Entitlement"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Failure"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.VulnerabilityHarm"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Enmeshment"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.DependencyIncompetence"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.SocialIsolation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Defectiveness"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.EmotionalDeprivation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Mistrust"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.Abandonment"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.whys"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.CogDistort"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.AntiProcrastination"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.example.mentalhealthguide.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.mentalhealthguide.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

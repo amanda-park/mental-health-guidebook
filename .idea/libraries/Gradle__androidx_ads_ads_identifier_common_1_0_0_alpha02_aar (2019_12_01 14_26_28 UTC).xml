@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.ads:ads-identifier-common:1.0.0-alpha02@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84e81b2d9d36fc91b1e2a9dd51771940/ads-identifier-common-1.0.0-alpha02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84e81b2d9d36fc91b1e2a9dd51771940/ads-identifier-common-1.0.0-alpha02/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.ads/ads-identifier-common/1.0.0-alpha02/4f776d2fc4f98767fe6486eb7570954232bb1775/ads-identifier-common-1.0.0-alpha02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

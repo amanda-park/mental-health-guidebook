@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Welcome"
+            android:title="@string/welcomeNav" />
+
+        <item android:title="@string/therapiesNav">
+            <menu>
+                <item
+                    android:id="@+id/nav_ACT"
+                    android:title="@string/actNav" />
+                <item
+                    android:id="@+id/nav_CBT"
+                    android:title="@string/cbtNav" />
+                <item
+                    android:id="@+id/nav_DBT"
+                    android:title="@string/dbtNav" />
+                <item
+                    android:id="@+id/nav_EMDR"
+                    android:title="@string/emdrNav" />
+                <item
+                    android:id="@+id/nav_IFS"
+                    android:title="@string/ifsNav" />
+                <item
+                    android:id="@+id/nav_MBSR"
+                    android:title="@string/mbsrNav" />
+                <item
+                    android:id="@+id/nav_Schemas"
+                    android:title="@string/schemasNav" />
+            </menu>
+        </item>
+    <item android:title="@string/generalNav">
+            <menu>
+                <item
+                    android:id="@+id/nav_EmotionalFirstAid"
+                    android:title="@string/emotionalFirstAidNav" />
+
+                <item
+                    android:id="@+id/nav_Habits"
+                    android:title="@string/habitsNav" />
+                <item
+                    android:id="@+id/nav_References"
+                    android:title="@string/resourcesNav" />
+            </menu>
+        </item>
+    </group>
+    <!-- <item android:title="Communicate">
+         <menu>
+             <item
+                 android:id="@+id/nav_share"
+                 android:icon="@drawable/ic_menu_share"
+                 android:title="Share" />
+             <item
+                 android:id="@+id/nav_send"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Send" />
+         </menu>
+     </item>-->
+
+</menu>

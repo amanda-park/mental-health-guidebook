@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".Rejection">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="First Aid for Rejection"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="1) Argue with Self-Criticism\n\nThis can be done in a similar way to the but-rebuttal method mentioned in the CBT section. A general method can be followed:\n\na) List (in writing) any negative or self-critical thoughts you have about the rejection. \n\nb) Use the following self-criticism “counterarguments” from a variety of rejection scenarios to formulate personalized rebuttals to each of the self-criticisms you listed. Feel free to list more than one counterargument per self-critical thought when it is relevant to do so.\n\nWhenever you have a self-critical thought, make sure to immediately articulate the relevant counterargument(s) fully and clearly in your mind./n/nFor example, a relevant argument for romantic rejection involves assuming that the pairing is just a bad fit, rather than related to any personal shortcomings. For workplace rejection, remember job hunting is generally an employee-unfriendly process where job rejection is inevitable, and when in a job, remember that rejection by colleagues may be related to the culture of the company or attempting to appeal to superiors. For social rejections, keep in mind that you may have outgrown the social group you were previously a part of, or may have different values that make it hard to be close with them."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="2) Revive Self-Worth\n\na) Make a written list of five characteristics, attributes, or traits you value highly that you have. Keep your list relevant to the area that the rejection occurred. It is important to take the time to think about qualities that really matter to you (for example, if you’ve been rejected by a romantic partner and you know the following qualities to be true you might list items such as caring, loyal, good listener, considerate, and emotionally available). Rank your list of characteristics according to their order of importance to you. \n\nb) Choose two of the top three attributes you listed and write a short essay (one or two paragraphs) about each one, covering the following points:\n• Why the specific quality is important to you\n• How this attribute influences your life\n• Why this attribute is an important part of your self-image"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="3) Replenish Feelings of Social Connection\n\nEven though the pain of rejection may make us not want to engage with others, it's worthwhile to have a strong support system in place to help mitigate stressful events. Ways to replenish feelings of social connection are to find new affiliations with a better fit for the person you are currently, and to recall past positive experiences.\n\n4) Densensitize Yourself\n\nUse only if in a good mental state! The more one is exposed to situations that are deemed uncomfortable or unpleasant, the less they end up disturbing us. For situations like asking people out on dates, calling prospective employers for jobs, applying to internships or other educational programs, or initiating new friendships, desensitization can be a great tool to work past fears of rejection in various realms."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

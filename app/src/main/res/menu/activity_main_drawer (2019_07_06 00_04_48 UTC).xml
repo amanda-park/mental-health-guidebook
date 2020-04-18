@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Welcome"
+            android:title="Welcome" />
+
+        <item android:title="Therapies">
+            <menu>
+                <item
+                    android:id="@+id/nav_ACT"
+                    android:title="ACT" />
+                <item
+                    android:id="@+id/nav_CBT"
+                    android:title="CBT" />
+                <item
+                    android:id="@+id/nav_DBT"
+                    android:title="DBT" />
+                <item
+                    android:id="@+id/nav_EMDR"
+                    android:title="EMDR" />
+                <item
+                    android:id="@+id/nav_IFS"
+                    android:title="IFS" />
+                <item
+                    android:id="@+id/nav_MBSR"
+                    android:title="MBSR" />
+                <item
+                    android:id="@+id/nav_Schemas"
+                    android:title="Schemas" />
+            </menu>
+        </item>
+    <item android:title="General">
+            <menu>
+                <item
+                    android:id="@+id/nav_EmotionalFirstAid"
+                    android:title="Emotional First Aid" />
+
+                <item
+                    android:id="@+id/nav_Habits"
+                    android:title="Habits" />
+                <item
+                    android:id="@+id/nav_References"
+                    android:title="References" />
+            </menu>
+        </item>
+    </group>
+    <!-- <item android:title="Communicate">
+         <menu>
+             <item
+                 android:id="@+id/nav_share"
+                 android:icon="@drawable/ic_menu_share"
+                 android:title="Share" />
+             <item
+                 android:id="@+id/nav_send"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Send" />
+         </menu>
+     </item>-->
+
+</menu>

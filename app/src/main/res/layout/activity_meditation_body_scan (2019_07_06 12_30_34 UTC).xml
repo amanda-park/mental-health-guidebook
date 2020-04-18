@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".MeditationBodyScan">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Body Scan Meditation"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:autoLink="web"
+                android:text="The body scan is a powerful form of meditation that encourages you to be aware of how your body is feeling in the current moment. The general gist is that you end up giving devoted attention to each part of your body, starting from the base of your skull and going all the way down to your toes, while hitting everywhere in-between. The sensations in the body tend to be felt more acutely by giving them our full attention, but by doing so we also allow our body to process the feeling associated with the sensation too. Emotional reactions and thoughts will also inevitably appear while doing this exercise, but just be aware of these things popping up and instead to practice acceptance. Some body scan meditations (of varying lengths) are linked below:\n\n45 minute body scan - https://www.youtube.com/watch?v=ZJxG5B5T-xE \n\n30 minute body scan meditation - https://www.youtube.com/watch?v=_DTmGtznab4 \n\n15 minute body scan - https://www.youtube.com/watch?v=CyKhfUdOEgs"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

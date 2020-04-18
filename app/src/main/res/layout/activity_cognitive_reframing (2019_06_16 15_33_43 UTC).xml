@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".EmotionalInhibition">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Cognitive Reframing"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="Using ABC-DE for Cognitive Reframing:\n\nGive An Accurate Description of Event, and keep it as free of as many cognitive distortions as possible.\n\nBeliefs Regarding Event - Describe seeing situation as accurately as possible. (What caused the situation to happen? What does the event say about you? What do you think should happen?)\n\nConsequences of Event - (What were the automatic negative thoughts, what were the feelings about the event, what were automatic actions taken in response to the situation)\n\n*Cognitive Reframing starts here*\n\nDispute - Challenge thoughts and beliefs to see reality more accurately. Questions to ask:\nIf the same thing happened to your best friend or someone you love, what would be your interpretation of the event then?\nHow would [enter the name of your role model] interpret this situation?\nWhat are other potential explanations besides blaming yourself?\nWhat was under your control and you could have done better, and what was completely out of your control?\nWhat are all the counterarguments to your underlying beliefs? Your past accomplishments, the things you do have, the praise you got, everything that proves the event is an exception.\nWhat’s the worst thing that could realistically happen and how bad would that be?\nWhat difference will this one-time event make in a month, a year or a decade?\nAre you sure that you are completely powerless in the situation? List all the moves you can make to get yourself in a better position.\nIs thinking this way helping the situation or making it worse?\nWhat is the most positive interpretation of the event you can think of?\n\nEffect - accurate view of situation with healthier narrative. Write down new thoughts, feelings and action plan to put forth lifestyle with this narrative."
+                android:textSize="20dp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

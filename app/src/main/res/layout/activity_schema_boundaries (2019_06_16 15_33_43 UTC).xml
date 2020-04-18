@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".SchemaBoundaries">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Signs of Healthy Boundaries"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="You can say no or yes, and you are ok when others say no to you.\nYou have a strong sense of identity. You respect yourself.\nYou expect reciprocity in a relationship-you share responsibility and power.\nYou know when the problem is yours and when it belongs to someone else.\nYou share personal information gradually in a mutually sharing/trusting relationship.\nYou don’t tolerate abuse or disrespect.\nYou know your own wants, needs and feelings. You communicate them clearly in your relationships.\nYou are committed to and responsible for exploring and nurturing your full potential.\nYou are responsible for your own happiness and fulfillment. You allow others to be responsible for their own happiness and fulfillment.\nYou value your opinions and feelings as much as others.\nYou know your limits. You allow others to define their limits.\nYou are able to ask for help when you need it.\nYou don’t compromise your values or integrity to avoid rejection."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

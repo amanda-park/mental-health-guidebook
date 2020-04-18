@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Enmeshment">
+
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="655dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Enmeshment and Undeveloped Self Schema"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="250dp"
+            android:text="Excessive emotional involvement and closeness with one or more significant others (often parents), at the expense of full individuation or normal social development. Often involves the belief that at least one of the enmeshed individuals cannot survive or be happy without the constant support of the other. May also include feelings of being smothered by, or fused with, others OR insufficient individual identity. Often experienced as a feeling of emptiness and floundering, having no direction, or in extreme cases questioning one's existence. \n\nTreatment: Must feel it's okay to become untangled from others and thrive on their own. Must discover own preferences and identity through mindfulness and establishing boundaries."
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

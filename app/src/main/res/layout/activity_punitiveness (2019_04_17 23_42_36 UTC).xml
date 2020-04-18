@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Punitiveness">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Related to Unrelenting Standards and Defectiveness. Punishing ones self for not living up to impossible standards or for being broken - ie, being bad. Unable to forgive mistakes and believe that they deserve punishment. Can be self-directed or directed at others.
+
+Treatment: Question person's intentions first before deciding on either doing punishment or forgiveness. Work on practicing self-forgiveness and then extend it to others in a similar way. Do not let taking responsibility for one\'s actions derail attempts of forgiveness."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="28dp" />
+</android.support.constraint.ConstraintLayout>

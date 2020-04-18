@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/quoteBubble"
+        android:icon="@drawable/ic_quote_bubble"
+        android:title="@string/self_care_bubble"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"/>
+
+<!--    <item android:id="@+id/rate"
+        android:icon="@drawable/ic_star_white"
+        android:title="Rate Me!"
+        app:showAsAction="ifRoom"/>-->
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/about_me"
+        app:showAsAction="never" />
+
+</menu>

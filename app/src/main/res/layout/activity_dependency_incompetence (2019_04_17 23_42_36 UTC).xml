@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DependencyIncompetence">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incompetence: Lacking faith in decisions and judgments about everyday life. Hate/fear facing change alone, unable to tackle tasks alone and need someone to show what to do.
+
+Dependence: Finding people to take care of them, or just not functioning at all whatsoever. Waiting for someone else to show them the way. Difficulty traveling alone, asking for advice. Worrisome tradeoff - becoming counterdependent and doing everything on one's own.
+
+Treatment: Building confidence and skills, trying to do things alone. Will end up not relying on others to unhealthy degree afterwards. Learn to trust own intuition and judgments rather than relying on others. "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="99dp" />
+</android.support.constraint.ConstraintLayout>

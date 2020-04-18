@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".EmotionalDeprivation">
+
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="655dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Emotional Deprivation Schema"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="250dp"
+            android:text="Feel they do not get enough affection, attention, or deep emotions expressed. Feel misunderstood and alone in the world. Deprivation of Nurturance (nobody is there to hold them, pay attention to them, or give physical affection), Deprivation of Empathy (nobody is there who listens or understands who they are and how they feel), Deprivation of Protection (nobody is there to protect/guid them, despite offering as much for others). No expressing desire for love or comfort, focusing on other person but not talking about self, acting stronger than one actually is, and acting as if there are no emotional needs, so emotional needs are not fulfilled. Choosing/being attracted to partners who are cold, aloof, or needy/self-centered, so relationship is draining. Either stay in distant relationships or avoid them entirely. \n\nTreatment: Become aware of emotional needs, and accept that they are natural and right. Get needs for nurturance, empathy, and protection met. Choose appropriate people to open up to and ask for needs in appropriate ways. Be able to be both strong and vulnerable."            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

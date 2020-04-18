@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Amanda\\AndroidStudioProjects\\MentalHealthGuide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Amanda\\AndroidStudioProjects\\MentalHealthGuide\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,20,15,22",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "45,708,552,802",
+                        "endLines": "12,20,18,22",
+                        "endColumns": "12,90,12,80",
+                        "endOffsets": "542,794,700,878"
+                    },
+                    "to": {
+                        "startLines": "6,16,17,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "249,742,832,982",
+                        "endLines": "15,16,20,21",
+                        "endColumns": "12,89,12,79",
+                        "endOffsets": "737,827,977,1057"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Amanda\\AndroidStudioProjects\\MentalHealthGuide\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "4,5,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "157,204,57,105",
+                        "endColumns": "45,49,46,50",
+                        "endOffsets": "198,249,99,151"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,151,198",
+                        "endColumns": "45,49,46,50",
+                        "endOffsets": "96,146,193,244"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Amanda\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1062,1132,1216,1300,1396,1498,1600,1694",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "1127,1211,1295,1391,1493,1595,1689,1778"
+                    }
+                }
+            ]
+        }
+    ]
+}

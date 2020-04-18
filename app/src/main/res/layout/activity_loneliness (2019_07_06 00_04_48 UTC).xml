@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".Loneliness">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="First Aid for Loneliness"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="1) Remove Negatively Tinted Glasses\n\nThe first step to removing the negative glasses is to fight pessimistic thinking by purposefully visualize scenarios of success that are both reasonable and realistic. It's helpful to also give benefit of the doubt by remembering that lonely people tend to assume the worst about how others feel about us. Instead, we must battle the internal tide of skepticism we feel and give the new people in our lives and the ones with whom we have existing relationships the benefit of the doubt. Lastly, taking action by doing the following exercise can help you identify avenues for social connection:\n\na) Go through your phone numbers, e-mail addresses, and social media contacts and make a list of people you consider friends or good acquaintances. \n\nb) For each person, note when you last saw or communicated with him or her and create a master list of people you haven’t been in touch with for a while. \n\nc) Prioritize your list by ranking all the people on it according to who in the past has made you feel best about being you. Your final ranking represents the order in which you should contact the people on your list. Reach out to at least one or two people a week and, when possible, initiate plans to meet. \n\nd) Go to websites that list meetings or activities and scroll through their categories, such as Meetup. Even if you don’t find a specific meet-up that fits your interests, such sites are good places to get ideas for activities or hobbies that might intrigue you. \n\ne) Identify at least three activities or topics you might want to pursue (e.g., book clubs, adult education classes, hiking or biking groups). Search online for meetings in your area."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="2) Identify Self-Defeating Behaviors \n\nTake time to reflect on how you might come across to your friends, colleagues, and loved ones or when you are on a date or any other type of social engagement. Try to identify at least three behaviors (including omissions, such as not conveying interest), even if they seem entirely justified and even if they seem relatively minor, that might be pushing other people away.\n\na) My self-defeating behaviors are: ____ \n\nb) Once you’ve identified what you might be doing incorrectly, be extremely mindful of avoiding such behaviors in the future. Keep your list handy and read it before you attend social engagements. Self-defeating mechanisms can be changed once you have identified them correctly but do not expect to eliminate them all at once."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="3) Take Other Person's Perspective\n\na) Failing to Engage Our Perspective-taking Muscles When We Should\n\nTry to understand the other person\'s perspective - how they might see things, react to an action you take, or how their values and agenda may vary from your own.\n\nb) Favoring Our Own Point of View\n\nBy not giving other people's perspective proper weight, it's far more likely to cause social strife in communication, whether it be in person or through electronic communications.\n\nc) Considering the Wrong Information\n\nBe sure to consider accurate information as opposed to inaccurate information (such as broad stereotypes or gossip). Judge the person based on who they are and not preconceived notions."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="4) Deepen Emotional Bonds With Others \n\nThe best way to deepen emotional bonds is to practice empathy for others. These empathy muscles can be strengthened by visualizing yourself in the other person's shoes and knowing the context with which they might see a situation. Then, convey the insights you gained by showcasing your understanding in a compassionate and convincing manner."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text="5) Create Opportunities for Social Connection \n\nIf hesitant to attend new events, a way to circumvent that is to attend with another purpose in mind besides socializing. For example, one could attend a biking group if they were training for a triathlon. This way, the pressure isn't entirely put on socializing. Other avenues that can be used for meeting people include the Internet and volunteering."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="6) Adopt a Best Friend\n\nIf one is rural, lacks the mobility to get out into the community, or for other reasons has a hard time socializing on a regular basis, pets are a great way to help mitigate the feelings of loneliness. Just be aware that owning a pet (but especially a dog) is a huge responsibility that should not be undertaken lightly, if that is the avenue one decides to take."
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

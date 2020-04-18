@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="4dp"
+    tools:context=".EmotionalRegulation">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Emotional Regulation"
+                android:textAllCaps="true"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="DBT thinks about emotions as brief and voluntary full system responses to stimuli, either internal or external. The average emotion lasts for 90 seconds, and emotion regulation is essentially the ability to control and influence the emotions that you have, including when you have them, how you’re experiencing them, and how you’re expressing them. \n\n1) Radical Acceptance \n\nRadical Acceptance is accepting what is – exactly as it is. It is saying yes to both reality as it is right now and to the reality of the past. Note radical acceptance does not equal approval of one's past. You do not have to like reality, but you do have to accept it. Resisting reality does not alter it but merely ups your emotional suffering. Part of being human is experiencing pain. Some people's lives have more pain in them than others. But while pain is unavoidable, suffering is optional.\n\nPain + resistance = suffering but Pain + radical acceptance = peace\n\nTo successfully practice radical acceptance, do the following things:\n\na) Notice when you are fighting reality\n\nb) Turn your mind towards acceptance and stop resisting the previous reality\n\nc) Relax your body \n\nd) Act as if you're radically accepting, even if you currently aren't. "
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
